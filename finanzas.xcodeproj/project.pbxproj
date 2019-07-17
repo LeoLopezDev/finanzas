@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010B335E22DECCB0000CF058 /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010B335C22DECCB0000CF058 /* Transactions.storyboard */; };
+		010B336022DECD10000CF058 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010B335F22DECD10000CF058 /* Add.storyboard */; };
+		010B336322DECD37000CF058 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010B336122DECD37000CF058 /* Profile.storyboard */; };
+		010B336522DECD6D000CF058 /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010B336422DECD6D000CF058 /* Statistics.storyboard */; };
+		010B336822DECD8F000CF058 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010B336622DECD8F000CF058 /* Budget.storyboard */; };
 		45310EB522DE704500EA215C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45310EB422DE704500EA215C /* AppDelegate.swift */; };
 		45310EB722DE704500EA215C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45310EB622DE704500EA215C /* ViewController.swift */; };
 		45310EBA22DE704500EA215C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45310EB822DE704500EA215C /* Main.storyboard */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010B335D22DECCB0000CF058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = finanzas/Base.lproj/Transactions.storyboard; sourceTree = "<group>"; };
+		010B335F22DECD10000CF058 /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
+		010B336222DECD37000CF058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = finanzas/Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
+		010B336422DECD6D000CF058 /* Statistics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = "<group>"; };
+		010B336722DECD8F000CF058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = finanzas/Base.lproj/Budget.storyboard; sourceTree = "<group>"; };
 		45310EB122DE704500EA215C /* finanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45310EB422DE704500EA215C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45310EB622DE704500EA215C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +84,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		010B335822DECC1C000CF058 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				010B335F22DECD10000CF058 /* Add.storyboard */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		010B335922DECC2F000CF058 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				010B336422DECD6D000CF058 /* Statistics.storyboard */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		010B335A22DECC4B000CF058 /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				010B336622DECD8F000CF058 /* Budget.storyboard */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
+		010B335B22DECC56000CF058 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				010B336122DECD37000CF058 /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		01D5A78322DECB3000154CFD /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				010B335C22DECCB0000CF058 /* Transactions.storyboard */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
 		45310EA822DE704500EA215C = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +147,11 @@
 		45310EB322DE704500EA215C /* finanzas */ = {
 			isa = PBXGroup;
 			children = (
+				010B335B22DECC56000CF058 /* Profile */,
+				010B335A22DECC4B000CF058 /* Budget */,
+				010B335922DECC2F000CF058 /* Statistics */,
+				010B335822DECC1C000CF058 /* Add */,
+				01D5A78322DECB3000154CFD /* Transactions */,
 				45310EB422DE704500EA215C /* AppDelegate.swift */,
 				45310EB622DE704500EA215C /* ViewController.swift */,
 				45310EB822DE704500EA215C /* Main.storyboard */,
@@ -229,9 +284,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010B336322DECD37000CF058 /* Profile.storyboard in Resources */,
 				45310EBF22DE704700EA215C /* LaunchScreen.storyboard in Resources */,
 				45310EBC22DE704700EA215C /* Assets.xcassets in Resources */,
+				010B336822DECD8F000CF058 /* Budget.storyboard in Resources */,
+				010B336022DECD10000CF058 /* Add.storyboard in Resources */,
 				45310EBA22DE704500EA215C /* Main.storyboard in Resources */,
+				010B336522DECD6D000CF058 /* Statistics.storyboard in Resources */,
+				010B335E22DECCB0000CF058 /* Transactions.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +353,30 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		010B335C22DECCB0000CF058 /* Transactions.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				010B335D22DECCB0000CF058 /* Base */,
+			);
+			name = Transactions.storyboard;
+			sourceTree = "<group>";
+		};
+		010B336122DECD37000CF058 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				010B336222DECD37000CF058 /* Base */,
+			);
+			name = Profile.storyboard;
+			sourceTree = "<group>";
+		};
+		010B336622DECD8F000CF058 /* Budget.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				010B336722DECD8F000CF058 /* Base */,
+			);
+			name = Budget.storyboard;
+			sourceTree = "<group>";
+		};
 		45310EB822DE704500EA215C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
