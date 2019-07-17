@@ -20,6 +20,7 @@
 		45310ECA22DE704700EA215C /* finanzasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45310EC922DE704700EA215C /* finanzasTests.swift */; };
 		45310ED522DE704700EA215C /* finanzasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45310ED422DE704700EA215C /* finanzasUITests.swift */; };
 		45334BA222DFB12F0048BB86 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45334BA122DFB12F0048BB86 /* SignIn.storyboard */; };
+		45334BA622DFBBE70048BB86 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45334BA522DFBBE70048BB86 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		45310ED422DE704700EA215C /* finanzasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finanzasUITests.swift; sourceTree = "<group>"; };
 		45310ED622DE704700EA215C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45334BA122DFB12F0048BB86 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		45334BA522DFBBE70048BB86 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,12 +151,13 @@
 		45310EB322DE704500EA215C /* finanzas */ = {
 			isa = PBXGroup;
 			children = (
-				45334BA022DFB0DF0048BB86 /* SignIn */,
+				45334BA322DFBBC50048BB86 /* Resources */,
 				010B335B22DECC56000CF058 /* Profile */,
 				010B335A22DECC4B000CF058 /* Budget */,
 				010B335922DECC2F000CF058 /* Statistics */,
 				010B335822DECC1C000CF058 /* Add */,
 				01D5A78322DECB3000154CFD /* Transactions */,
+				45334BA022DFB0DF0048BB86 /* SignIn */,
 				45310EB422DE704500EA215C /* AppDelegate.swift */,
 				45310EB622DE704500EA215C /* ViewController.swift */,
 				45310EB822DE704500EA215C /* Main.storyboard */,
@@ -189,6 +192,22 @@
 				45334BA122DFB12F0048BB86 /* SignIn.storyboard */,
 			);
 			path = SignIn;
+			sourceTree = "<group>";
+		};
+		45334BA322DFBBC50048BB86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				45334BA422DFBBD20048BB86 /* Colors */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		45334BA422DFBBD20048BB86 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				45334BA522DFBBE70048BB86 /* Colors.xcassets */,
+			);
+			path = Colors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +319,7 @@
 				45310EBC22DE704700EA215C /* Assets.xcassets in Resources */,
 				010B336822DECD8F000CF058 /* Budget.storyboard in Resources */,
 				45334BA222DFB12F0048BB86 /* SignIn.storyboard in Resources */,
+				45334BA622DFBBE70048BB86 /* Colors.xcassets in Resources */,
 				010B336022DECD10000CF058 /* Add.storyboard in Resources */,
 				45310EBA22DE704500EA215C /* Main.storyboard in Resources */,
 				010B336522DECD6D000CF058 /* Statistics.storyboard in Resources */,
