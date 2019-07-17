@@ -19,6 +19,7 @@
 		45310EBF22DE704700EA215C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45310EBD22DE704700EA215C /* LaunchScreen.storyboard */; };
 		45310ECA22DE704700EA215C /* finanzasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45310EC922DE704700EA215C /* finanzasTests.swift */; };
 		45310ED522DE704700EA215C /* finanzasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45310ED422DE704700EA215C /* finanzasUITests.swift */; };
+		45334BA222DFB12F0048BB86 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45334BA122DFB12F0048BB86 /* SignIn.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		45310ED022DE704700EA215C /* finanzasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finanzasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45310ED422DE704700EA215C /* finanzasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finanzasUITests.swift; sourceTree = "<group>"; };
 		45310ED622DE704700EA215C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45334BA122DFB12F0048BB86 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 		45310EB322DE704500EA215C /* finanzas */ = {
 			isa = PBXGroup;
 			children = (
+				45334BA022DFB0DF0048BB86 /* SignIn */,
 				010B335B22DECC56000CF058 /* Profile */,
 				010B335A22DECC4B000CF058 /* Budget */,
 				010B335922DECC2F000CF058 /* Statistics */,
@@ -178,6 +181,14 @@
 				45310ED622DE704700EA215C /* Info.plist */,
 			);
 			path = finanzasUITests;
+			sourceTree = "<group>";
+		};
+		45334BA022DFB0DF0048BB86 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				45334BA122DFB12F0048BB86 /* SignIn.storyboard */,
+			);
+			path = SignIn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +299,7 @@
 				45310EBF22DE704700EA215C /* LaunchScreen.storyboard in Resources */,
 				45310EBC22DE704700EA215C /* Assets.xcassets in Resources */,
 				010B336822DECD8F000CF058 /* Budget.storyboard in Resources */,
+				45334BA222DFB12F0048BB86 /* SignIn.storyboard in Resources */,
 				010B336022DECD10000CF058 /* Add.storyboard in Resources */,
 				45310EBA22DE704500EA215C /* Main.storyboard in Resources */,
 				010B336522DECD6D000CF058 /* Statistics.storyboard in Resources */,

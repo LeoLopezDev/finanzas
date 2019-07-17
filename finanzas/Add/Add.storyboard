@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xx3-do-BmX">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Add-->
         <scene sceneID="e7h-uj-cui">
             <objects>
                 <viewController id="t6z-Cu-pcQ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cRJ-Cb-iZG">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="nBn-9w-fAX"/>
                     </view>
-                    <navigationItem key="navigationItem" id="zk1-qS-m5Z"/>
+                    <navigationItem key="navigationItem" title="Add" id="zk1-qS-m5Z"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aFo-4t-86W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
