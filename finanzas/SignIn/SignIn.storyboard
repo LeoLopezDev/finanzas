@@ -53,37 +53,91 @@
                                     <constraint firstItem="soF-zi-F4o" firstAttribute="centerX" secondItem="mgx-Tu-J1s" secondAttribute="centerX" id="lrb-fW-XA3"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HR6-1g-5Il">
+                                <rect key="frame" x="164.5" y="613" width="85" height="30"/>
+                                <state key="normal" title="Sign up with"/>
+                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="wZg-Jg-bus">
                                 <rect key="frame" x="71" y="658" width="272" height="56"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l08-Dz-BT9">
                                         <rect key="frame" x="0.0" y="0.0" width="80" height="56"/>
-                                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="56" id="vTg-jo-Eoc"/>
                                             <constraint firstAttribute="width" constant="80" id="yll-JG-Uyq"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j19-8f-LJC">
                                         <rect key="frame" x="96" y="0.0" width="80" height="56"/>
-                                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="80" id="5sg-ZA-y8g"/>
                                             <constraint firstAttribute="height" constant="56" id="6WT-Hy-pyo"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epp-f6-5Vt">
                                         <rect key="frame" x="192" y="0.0" width="80" height="56"/>
-                                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="80" id="wG6-YF-BbK"/>
+                                        </constraints>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OXz-E6-RkR">
+                                <rect key="frame" x="0.0" y="277" width="414" height="200"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sSr-HA-Fw5">
+                                        <rect key="frame" x="20" y="10" width="374" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="znL-nh-kYN">
+                                        <rect key="frame" x="20" y="60" width="374" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Bh-Kp-RLx">
+                                        <rect key="frame" x="285" y="98" width="109" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="Forgot Password"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jcW-k7-V84">
+                                        <rect key="frame" x="20" y="135" width="374" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="nLm-ae-h4T"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                     </button>
                                 </subviews>
-                            </stackView>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="6Bh-Kp-RLx" secondAttribute="trailing" constant="20" id="GH5-Xp-cKK"/>
+                                    <constraint firstItem="6Bh-Kp-RLx" firstAttribute="top" secondItem="znL-nh-kYN" secondAttribute="bottom" constant="8" id="Ghn-SL-Hp8"/>
+                                    <constraint firstAttribute="trailing" secondItem="znL-nh-kYN" secondAttribute="trailing" constant="20" id="H4P-t1-SSN"/>
+                                    <constraint firstItem="znL-nh-kYN" firstAttribute="top" secondItem="sSr-HA-Fw5" secondAttribute="bottom" constant="20" id="IkT-a7-rhy"/>
+                                    <constraint firstAttribute="bottom" secondItem="jcW-k7-V84" secondAttribute="bottom" constant="20" id="K24-UH-9GX"/>
+                                    <constraint firstItem="jcW-k7-V84" firstAttribute="leading" secondItem="OXz-E6-RkR" secondAttribute="leading" constant="20" id="Ltc-i1-4hu"/>
+                                    <constraint firstAttribute="trailing" secondItem="jcW-k7-V84" secondAttribute="trailing" constant="20" id="ZmC-2e-mHS"/>
+                                    <constraint firstItem="sSr-HA-Fw5" firstAttribute="top" secondItem="OXz-E6-RkR" secondAttribute="top" constant="10" id="boK-KM-et6"/>
+                                    <constraint firstAttribute="trailing" secondItem="sSr-HA-Fw5" secondAttribute="trailing" constant="20" id="eG3-ss-TmP"/>
+                                    <constraint firstItem="znL-nh-kYN" firstAttribute="leading" secondItem="OXz-E6-RkR" secondAttribute="leading" constant="20" id="kKE-LF-Td1"/>
+                                    <constraint firstAttribute="height" constant="200" id="ndI-yc-ipG"/>
+                                    <constraint firstItem="sSr-HA-Fw5" firstAttribute="leading" secondItem="OXz-E6-RkR" secondAttribute="leading" constant="20" id="xN9-9X-80c"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -92,9 +146,14 @@
                             <constraint firstItem="mgx-Tu-J1s" firstAttribute="top" secondItem="wZg-Jg-bus" secondAttribute="bottom" constant="50" id="5se-wZ-1SF"/>
                             <constraint firstItem="Ir9-PJ-Qsd" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KIz-mK-uyW" secondAttribute="trailing" constant="40" id="7ms-uG-gD3"/>
                             <constraint firstItem="Ir9-PJ-Qsd" firstAttribute="trailing" secondItem="mgx-Tu-J1s" secondAttribute="trailing" id="Q3h-93-38h"/>
+                            <constraint firstItem="wZg-Jg-bus" firstAttribute="top" secondItem="HR6-1g-5Il" secondAttribute="bottom" constant="15" id="RXX-Ef-fwY"/>
                             <constraint firstItem="mgx-Tu-J1s" firstAttribute="leading" secondItem="Ir9-PJ-Qsd" secondAttribute="leading" id="SMK-UX-tIQ"/>
+                            <constraint firstItem="HR6-1g-5Il" firstAttribute="centerX" secondItem="NS0-Yk-tOv" secondAttribute="centerX" id="TKL-hs-2h6"/>
+                            <constraint firstItem="OXz-E6-RkR" firstAttribute="top" secondItem="KIz-mK-uyW" secondAttribute="bottom" constant="40" id="TYP-nr-7iz"/>
                             <constraint firstItem="KIz-mK-uyW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ir9-PJ-Qsd" secondAttribute="leading" constant="40" id="dTK-8y-ZVp"/>
                             <constraint firstItem="KIz-mK-uyW" firstAttribute="centerX" secondItem="NS0-Yk-tOv" secondAttribute="centerX" id="gTM-gw-q0u"/>
+                            <constraint firstItem="Ir9-PJ-Qsd" firstAttribute="trailing" secondItem="OXz-E6-RkR" secondAttribute="trailing" id="xhZ-VE-Gqg"/>
+                            <constraint firstItem="OXz-E6-RkR" firstAttribute="leading" secondItem="Ir9-PJ-Qsd" secondAttribute="leading" id="y72-M4-hMB"/>
                             <constraint firstItem="Ir9-PJ-Qsd" firstAttribute="bottom" secondItem="mgx-Tu-J1s" secondAttribute="bottom" id="yQO-sT-a3p"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ir9-PJ-Qsd"/>
