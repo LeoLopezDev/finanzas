@@ -110,14 +110,20 @@
                                     <constraint firstAttribute="height" constant="200" id="9Wg-Yk-ulr"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XEL-uD-w4e">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XEL-uD-w4e">
                                 <rect key="frame" x="20" y="468" width="374" height="49.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="49.5" id="k1f-X7-Ll2"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="36"/>
                                 <color key="textColor" name="GreenColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbS-CD-mH5">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbS-CD-mH5">
                                 <rect key="frame" x="20" y="525.5" width="374" height="23.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="23.5" id="EdE-fR-PBM"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                 <color key="textColor" name="GrayColor"/>
                                 <nil key="highlightedColor"/>
@@ -127,6 +133,7 @@
                         <constraints>
                             <constraint firstItem="U9n-qX-MJ6" firstAttribute="centerY" secondItem="g2G-4E-vi4" secondAttribute="centerY" constant="-100" id="8jx-bj-A2I"/>
                             <constraint firstItem="m0q-tu-HAj" firstAttribute="trailing" secondItem="gbS-CD-mH5" secondAttribute="trailing" constant="20" id="9DL-RD-JMb"/>
+                            <constraint firstItem="m0q-tu-HAj" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="gbS-CD-mH5" secondAttribute="bottom" constant="70" id="Fhh-nQ-mn1"/>
                             <constraint firstItem="XEL-uD-w4e" firstAttribute="top" secondItem="U9n-qX-MJ6" secondAttribute="bottom" constant="20" id="Vrq-kA-P5b"/>
                             <constraint firstItem="XEL-uD-w4e" firstAttribute="leading" secondItem="m0q-tu-HAj" secondAttribute="leading" constant="20" id="Wwm-sj-MDX"/>
                             <constraint firstItem="U9n-qX-MJ6" firstAttribute="centerX" secondItem="g2G-4E-vi4" secondAttribute="centerX" id="Yjn-FA-n1s"/>
