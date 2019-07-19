@@ -58,7 +58,7 @@
 		4517D1C322E2686B00E742E3 /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
 		45310EB122DE704500EA215C /* finanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45310EB422DE704500EA215C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45310EB622DE704500EA215C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45310EB622DE704500EA215C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../ViewController.swift; sourceTree = "<group>"; };
 		45310EB922DE704500EA215C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45310EBB22DE704700EA215C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45310EBE22DE704700EA215C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -181,20 +181,10 @@
 		45310EB322DE704500EA215C /* finanzas */ = {
 			isa = PBXGroup;
 			children = (
-				4517D1BB22E248E600E742E3 /* Authentication */,
+				4563D9B622E27F61004C208B /* Base */,
+				4563D9B222E27E7B004C208B /* Application */,
 				45334BA722DFC5EC0048BB86 /* Extensions */,
 				45334BA322DFBBC50048BB86 /* Resources */,
-				010B335B22DECC56000CF058 /* Profile */,
-				010B335A22DECC4B000CF058 /* Budget */,
-				010B335922DECC2F000CF058 /* Statistics */,
-				010B335822DECC1C000CF058 /* Add */,
-				01D5A78322DECB3000154CFD /* Transactions */,
-				45310EB422DE704500EA215C /* AppDelegate.swift */,
-				45310EB622DE704500EA215C /* ViewController.swift */,
-				45310EB822DE704500EA215C /* Main.storyboard */,
-				45310EBB22DE704700EA215C /* Assets.xcassets */,
-				45310EBD22DE704700EA215C /* LaunchScreen.storyboard */,
-				45310EC022DE704700EA215C /* Info.plist */,
 			);
 			path = finanzas;
 			sourceTree = "<group>";
@@ -228,6 +218,7 @@
 		45334BA322DFBBC50048BB86 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4563D9B422E27EF0004C208B /* Images */,
 				45334BA422DFBBD20048BB86 /* Colors */,
 			);
 			path = Resources;
@@ -247,6 +238,55 @@
 				4510DCB022DFC86700483D1C /* Shadow.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4563D9B222E27E7B004C208B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4563D9B322E27E9B004C208B /* Main */,
+				4517D1BB22E248E600E742E3 /* Authentication */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4563D9B322E27E9B004C208B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4563D9B522E27F23004C208B /* Main */,
+				01D5A78322DECB3000154CFD /* Transactions */,
+				010B335B22DECC56000CF058 /* Profile */,
+				010B335922DECC2F000CF058 /* Statistics */,
+				010B335A22DECC4B000CF058 /* Budget */,
+				010B335822DECC1C000CF058 /* Add */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4563D9B422E27EF0004C208B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				45310EBB22DE704700EA215C /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		4563D9B522E27F23004C208B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				45310EB822DE704500EA215C /* Main.storyboard */,
+				45310EB622DE704500EA215C /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4563D9B622E27F61004C208B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				45310EC022DE704700EA215C /* Info.plist */,
+				45310EB422DE704500EA215C /* AppDelegate.swift */,
+				45310EBD22DE704700EA215C /* LaunchScreen.storyboard */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -593,7 +633,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = finanzas/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/finanzas/Base/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -611,7 +651,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = finanzas/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/finanzas/Base/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
