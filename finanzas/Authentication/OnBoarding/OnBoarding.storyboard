@@ -47,9 +47,14 @@
                                         <color key="value" name="GreenShadow"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="dtB-pV-qGM" kind="presentation" identifier="SignIn" id="bAH-vt-luh"/>
+                                </connections>
                             </button>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="NGw-Ue-riI">
                                 <rect key="frame" x="187.5" y="691" width="39" height="37"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="currentPageIndicatorTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -74,10 +79,18 @@
             </objects>
             <point key="canvasLocation" x="-1146" y="84"/>
         </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="97n-O9-1Vy">
+            <objects>
+                <viewControllerPlaceholder id="dtB-pV-qGM" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nZx-1M-5Xp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1146" y="544"/>
+        </scene>
         <!--On Boarding View Controller-->
         <scene sceneID="XNi-lo-pbt">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="c1q-db-v5R" customClass="OnBoardingViewController" customModule="finanzas" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="c1q-db-v5R" customClass="OnBoardingViewController" customModule="finanzas" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9e2-6g-zID" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-175" y="84"/>
