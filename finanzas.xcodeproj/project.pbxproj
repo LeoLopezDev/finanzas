@@ -26,6 +26,7 @@
 		45310ED522DE704700EA215C /* finanzasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45310ED422DE704700EA215C /* finanzasUITests.swift */; };
 		45334BA222DFB12F0048BB86 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45334BA122DFB12F0048BB86 /* SignIn.storyboard */; };
 		45334BA622DFBBE70048BB86 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45334BA522DFBBE70048BB86 /* Colors.xcassets */; };
+		45CB5B8322E659BE00786864 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB5B8222E659BE00786864 /* TransactionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		45310ED622DE704700EA215C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45334BA122DFB12F0048BB86 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		45334BA522DFBBE70048BB86 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		45CB5B8222E659BE00786864 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				010B335C22DECCB0000CF058 /* Transactions.storyboard */,
+				45CB5B8222E659BE00786864 /* TransactionsViewController.swift */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45CB5B8322E659BE00786864 /* TransactionsViewController.swift in Sources */,
 				4510DCB122DFC86700483D1C /* Shadow.swift in Sources */,
 				4517D1C422E2686B00E742E3 /* OnBoardingStepsViewController.swift in Sources */,
 				45310EB722DE704500EA215C /* ViewController.swift in Sources */,
