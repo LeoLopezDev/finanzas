@@ -12,6 +12,13 @@ class TransactionsViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
+    fileprivate(set) lazy var emptyStateView: UIView = {
+        guard let view = Bundle.main.loadNibNamed("EmptyState", owner: nil, options: [:])?.first as? UIView else{
+            return UIView()
+        }
+        return view
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -36,7 +43,12 @@ extension TransactionsViewController: UITableViewDelegate{
 }
 extension TransactionsViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        let count = 0
+        
+        tableView.backgroundView = count == 0 ? self.emptyStateView : nil
+        tableView.separatorStyle = count == 0 ? .none : .singleLine
+        
+        return count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

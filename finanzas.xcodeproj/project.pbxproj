@@ -27,6 +27,7 @@
 		45334BA222DFB12F0048BB86 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45334BA122DFB12F0048BB86 /* SignIn.storyboard */; };
 		45334BA622DFBBE70048BB86 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45334BA522DFBBE70048BB86 /* Colors.xcassets */; };
 		45CB5B8322E659BE00786864 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB5B8222E659BE00786864 /* TransactionsViewController.swift */; };
+		45CB5B8522E6729E00786864 /* EmptyState.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45CB5B8422E6729E00786864 /* EmptyState.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		45334BA122DFB12F0048BB86 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		45334BA522DFBBE70048BB86 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		45CB5B8222E659BE00786864 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		45CB5B8422E6729E00786864 /* EmptyState.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyState.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			children = (
 				010B335C22DECCB0000CF058 /* Transactions.storyboard */,
 				45CB5B8222E659BE00786864 /* TransactionsViewController.swift */,
+				45CB5B8422E6729E00786864 /* EmptyState.xib */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 				010B336822DECD8F000CF058 /* Budget.storyboard in Resources */,
 				45334BA222DFB12F0048BB86 /* SignIn.storyboard in Resources */,
 				45334BA622DFBBE70048BB86 /* Colors.xcassets in Resources */,
+				45CB5B8522E6729E00786864 /* EmptyState.xib in Resources */,
 				010B336022DECD10000CF058 /* Add.storyboard in Resources */,
 				45310EBA22DE704500EA215C /* Main.storyboard in Resources */,
 				010B336522DECD6D000CF058 /* Statistics.storyboard in Resources */,
