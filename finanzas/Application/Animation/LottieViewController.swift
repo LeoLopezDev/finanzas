@@ -16,21 +16,6 @@ class LottieViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let animation = Animation.named("LottieLogo1", subdirectory: "TestAnimations")
-
-        
-        animationLottie.animation(name)
-        animationLottie.play()
-
-        if let animationView = AnimationView(name: "servishero_loading") {
-            animationView.frame = CGRect(x: 0, y: 0, width: 400, height: 400)
-            animationView.center = self.view.center
-            animationView.contentMode = .scaleAspectFill
-            
-            view.addSubview(animationView)
-            
-            animationView.play()
-        }
 
     }
     

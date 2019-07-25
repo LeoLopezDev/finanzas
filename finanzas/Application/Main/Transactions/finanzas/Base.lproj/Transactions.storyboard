@@ -147,12 +147,13 @@
             </objects>
             <point key="canvasLocation" x="886.95652173913049" y="-108.48214285714285"/>
         </scene>
-        <!--1-->
+        <!--Navigation Controller-->
         <scene sceneID="OtF-t2-uYn">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Kq5-6y-RkV" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="1" id="D44-Uh-H8d"/>
+                    <tabBarItem key="tabBarItem" title="" image="tabBarTransactions" id="SCW-YE-a8b"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" largeTitles="YES" id="WKO-We-z2T">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -177,6 +178,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="tabBarTransactions" width="28" height="28"/>
         <namedColor name="Color">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

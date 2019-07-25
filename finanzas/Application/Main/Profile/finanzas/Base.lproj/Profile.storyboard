@@ -11,7 +11,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Profile-->
         <scene sceneID="2wE-Hh-hQV">
             <objects>
                 <viewController id="EzW-Fx-hV2" sceneMemberID="viewController">
@@ -21,18 +21,19 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="56l-Xm-UFW"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Exr-P2-sf0"/>
+                    <navigationItem key="navigationItem" title="Profile" id="Exr-P2-sf0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jdh-Fk-MYK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="886.95652173913049" y="1206.6964285714284"/>
         </scene>
-        <!--5-->
+        <!--Navigation Controller-->
         <scene sceneID="eRS-LQ-k8g">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bjs-Ig-YD6" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="5" id="Ssr-aJ-7xv"/>
+                    <tabBarItem key="tabBarItem" title="" image="tabBarAccount" id="ifL-8c-U1E"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" largeTitles="YES" id="qjt-3E-OMC">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -57,6 +58,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="tabBarAccount" width="20" height="20"/>
         <namedColor name="GreenColor">
             <color red="0.62352941176470589" green="0.74117647058823533" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
