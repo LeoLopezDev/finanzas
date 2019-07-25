@@ -27,12 +27,13 @@
             </objects>
             <point key="canvasLocation" x="886.95652173913049" y="-768.08035714285711"/>
         </scene>
-        <!--3-->
+        <!--Navigation Controller-->
         <scene sceneID="K2r-nv-CPb">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xx3-do-BmX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="3" id="rhf-Ij-30t"/>
+                    <tabBarItem key="tabBarItem" title="" id="H3S-P7-1Yt"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" largeTitles="YES" id="Cny-WR-Fos">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>

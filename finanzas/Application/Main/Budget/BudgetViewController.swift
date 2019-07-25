@@ -1,16 +1,17 @@
 //
-//  TransactionsViewController.swift
+//  BudgetViewController.swift
 //  finanzas
 //
-//  Created by Ikatech on 7/22/19.
+//  Created by Leonardo Lopez on 7/25/19.
 //  Copyright © 2019 leolopez. All rights reserved.
 //
 
 import UIKit
 
-class TransactionsViewController: UIViewController {
-
+class BudgetViewController: UIViewController {
+    
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet var animationButton: [UIButton]!
     
     fileprivate(set) lazy var emptyStateView: UIView = {
         guard let view = Bundle.main.loadNibNamed("EmptyState", owner: nil, options: [:])?.first as? UIView else{
@@ -21,18 +22,22 @@ class TransactionsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         let cell = UINib(nibName: "TransactionsCell", bundle: Bundle.main)
         tableView.register(cell, forCellReuseIdentifier: "cell")
     }
+    
+    @IBAction func animateHeader(sender: UIButton){
+        
+    }
 }
 
-extension TransactionsViewController: UITableViewDelegate{
+extension BudgetViewController: UITableViewDelegate{
     
 }
-extension TransactionsViewController: UITableViewDataSource{
+extension BudgetViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let count = 10
+        let count = 4
         
         tableView.backgroundView = count == 0 ? self.emptyStateView : nil
         tableView.separatorStyle = count == 0 ? .none : .singleLine

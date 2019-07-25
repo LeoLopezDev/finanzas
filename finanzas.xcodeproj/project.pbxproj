@@ -12,6 +12,9 @@
 		010B336322DECD37000CF058 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010B336122DECD37000CF058 /* Profile.storyboard */; };
 		010B336522DECD6D000CF058 /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010B336422DECD6D000CF058 /* Statistics.storyboard */; };
 		010B336822DECD8F000CF058 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010B336622DECD8F000CF058 /* Budget.storyboard */; };
+		016A68CC22EA586C00078A4D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016A68CB22EA586B00078A4D /* TabBarViewController.swift */; };
+		016A68CE22EA5F6900078A4D /* TransactionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 016A68CD22EA5F6900078A4D /* TransactionsCell.xib */; };
+		016A68D022EA610800078A4D /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016A68CF22EA610800078A4D /* BudgetViewController.swift */; };
 		01C7753822E9423E00CA7771 /* Lottie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C7753722E9423E00CA7771 /* Lottie.storyboard */; };
 		01C7753A22E942EE00CA7771 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C7753922E942EE00CA7771 /* LottieViewController.swift */; };
 		01C7753C22E945FA00CA7771 /* servishero-loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 01C7753B22E945FA00CA7771 /* servishero-loading.json */; };
@@ -59,6 +62,9 @@
 		010B336222DECD37000CF058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = finanzas/Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
 		010B336422DECD6D000CF058 /* Statistics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = "<group>"; };
 		010B336722DECD8F000CF058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = finanzas/Base.lproj/Budget.storyboard; sourceTree = "<group>"; };
+		016A68CB22EA586B00078A4D /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		016A68CD22EA5F6900078A4D /* TransactionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsCell.xib; sourceTree = "<group>"; };
+		016A68CF22EA610800078A4D /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
 		01C7753722E9423E00CA7771 /* Lottie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lottie.storyboard; sourceTree = "<group>"; };
 		01C7753922E942EE00CA7771 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
 		01C7753B22E945FA00CA7771 /* servishero-loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "servishero-loading.json"; sourceTree = "<group>"; };
@@ -71,7 +77,7 @@
 		4517D1C322E2686B00E742E3 /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
 		45310EB122DE704500EA215C /* finanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45310EB422DE704500EA215C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45310EB622DE704500EA215C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../ViewController.swift; sourceTree = "<group>"; };
+		45310EB622DE704500EA215C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		45310EB922DE704500EA215C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45310EBB22DE704700EA215C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45310EBE22DE704700EA215C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -142,6 +148,7 @@
 		010B335A22DECC4B000CF058 /* Budget */ = {
 			isa = PBXGroup;
 			children = (
+				016A68CF22EA610800078A4D /* BudgetViewController.swift */,
 				010B336622DECD8F000CF058 /* Budget.storyboard */,
 			);
 			path = Budget;
@@ -161,6 +168,7 @@
 				010B335C22DECCB0000CF058 /* Transactions.storyboard */,
 				45CB5B8222E659BE00786864 /* TransactionsViewController.swift */,
 				45CB5B8422E6729E00786864 /* EmptyState.xib */,
+				016A68CD22EA5F6900078A4D /* TransactionsCell.xib */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -233,6 +241,7 @@
 		45310EB322DE704500EA215C /* finanzas */ = {
 			isa = PBXGroup;
 			children = (
+				45310EB622DE704500EA215C /* ViewController.swift */,
 				4563D9B622E27F61004C208B /* Base */,
 				4563D9B222E27E7B004C208B /* Application */,
 				45334BA722DFC5EC0048BB86 /* Extensions */,
@@ -327,7 +336,7 @@
 			isa = PBXGroup;
 			children = (
 				45310EB822DE704500EA215C /* Main.storyboard */,
-				45310EB622DE704500EA215C /* ViewController.swift */,
+				016A68CB22EA586B00078A4D /* TabBarViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -461,6 +470,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4517D1BE22E24A8400E742E3 /* OnBoarding.storyboard in Resources */,
+				016A68CE22EA5F6900078A4D /* TransactionsCell.xib in Resources */,
 				010B336322DECD37000CF058 /* Profile.storyboard in Resources */,
 				45310EBF22DE704700EA215C /* LaunchScreen.storyboard in Resources */,
 				45310EBC22DE704700EA215C /* Assets.xcassets in Resources */,
@@ -593,8 +603,10 @@
 				4510DCB122DFC86700483D1C /* Shadow.swift in Sources */,
 				4517D1C422E2686B00E742E3 /* OnBoardingStepsViewController.swift in Sources */,
 				45310EB722DE704500EA215C /* ViewController.swift in Sources */,
+				016A68CC22EA586C00078A4D /* TabBarViewController.swift in Sources */,
 				45310EB522DE704500EA215C /* AppDelegate.swift in Sources */,
 				01C7753A22E942EE00CA7771 /* LottieViewController.swift in Sources */,
+				016A68D022EA610800078A4D /* BudgetViewController.swift in Sources */,
 				4517D1C022E2538500E742E3 /* OnBoardingContainerViewController.swift in Sources */,
 				4517D1C222E253C300E742E3 /* OnBoardingViewController.swift in Sources */,
 			);
