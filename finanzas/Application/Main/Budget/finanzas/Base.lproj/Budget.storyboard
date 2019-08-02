@@ -96,6 +96,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Budget" id="eNC-aG-Lex"/>
                     <connections>
+                        <outlet property="animationLayout" destination="DJV-wz-nZp" id="hzo-6E-fE2"/>
                         <outlet property="tableView" destination="L5h-Wo-5tA" id="7e7-E2-WAR"/>
                         <outletCollection property="animationButton" destination="BIb-YI-ccu" collectionClass="NSMutableArray" id="Oz1-38-d51"/>
                         <outletCollection property="animationButton" destination="0RF-Xs-WDa" collectionClass="NSMutableArray" id="SnH-qx-1zv"/>

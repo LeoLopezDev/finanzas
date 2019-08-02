@@ -12,6 +12,7 @@ class BudgetViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet var animationButton: [UIButton]!
+    @IBOutlet weak var animationLayout: NSLayoutConstraint!
     
     fileprivate(set) lazy var emptyStateView: UIView = {
         guard let view = Bundle.main.loadNibNamed("EmptyState", owner: nil, options: [:])?.first as? UIView else{
@@ -28,7 +29,12 @@ class BudgetViewController: UIViewController {
     }
     
     @IBAction func animateHeader(sender: UIButton){
-        
+        self.animationLayout.constant = sender.frame.origin.x
+        UIView.animate(withDuration: 0.5, animations: {
+            <#code#>
+        }) { (completed) in
+            //Se invoca cuando la animación es terminada
+        }
     }
 }
 
