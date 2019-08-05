@@ -9,7 +9,16 @@ target 'finanzas' do
 
   pod 'lottie-ios', '~> 2.5'
 
+  pod 'Fabric'
+  pod 'Crashlytics'
+  
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/InAppMessagingDisplay'
+  
+  pod 'FBSDKLoginKit'
 
   target 'finanzasTests' do
     inherit! :search_paths

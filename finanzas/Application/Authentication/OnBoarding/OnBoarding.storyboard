@@ -48,7 +48,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="dtB-pV-qGM" kind="presentation" identifier="SignIn" id="bAH-vt-luh"/>
+                                    <segue destination="dtB-pV-qGM" kind="presentation" identifier="goToSignin" id="bAH-vt-luh"/>
                                 </connections>
                             </button>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="NGw-Ue-riI">

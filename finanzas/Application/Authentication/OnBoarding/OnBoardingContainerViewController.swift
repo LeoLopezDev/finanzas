@@ -21,6 +21,14 @@ class OnBoardingContainerViewController: UIViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "goToSignin"{
+            //Cuando se muestre el onBoarding se setea en true para no volver a mostrar el onBoarding
+            UserDefaults.standard.set(true, forKey: "WatchedOnboarding")
+            UserDefaults.standard.synchronize()
+            return
+        }
+        
         guard segue.identifier == "openOnBoarding", let destination = segue.destination as? OnBoardingViewController  else {
             return
         }
