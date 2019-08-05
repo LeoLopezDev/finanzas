@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PlatziFinanzasCore
 
 class TabBarViewController: UITabBarController {
 
