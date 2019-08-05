@@ -31,9 +31,13 @@ class BudgetViewController: UIViewController {
     @IBAction func animateHeader(sender: UIButton){
         self.animationLayout.constant = sender.frame.origin.x
         UIView.animate(withDuration: 0.5, animations: {
-            <#code#>
+            self.view.layoutIfNeeded()
         }) { (completed) in
             //Se invoca cuando la animación es terminada
+            self.animationButton.forEach{
+                $0.setTitleColor(UIColor(named: "TextColor"), for: .normal)
+                sender.setTitleColor(UIColor.white, for: .normal)
+            }
         }
     }
 }

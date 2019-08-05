@@ -27,12 +27,17 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jMS-0C-7zx">
-                                            <rect key="frame" x="57" y="6.5" width="115" height="50"/>
+                                            <rect key="frame" x="57" y="6.5" width="105" height="50"/>
                                             <color key="backgroundColor" name="GreenColor"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="115" id="WKA-Af-PaW"/>
+                                                <constraint firstAttribute="width" constant="105" id="WKA-Af-PaW"/>
                                                 <constraint firstAttribute="height" constant="50" id="zft-jb-IYY"/>
                                             </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="22"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
                                         </view>
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="FOo-sz-E5d">
                                             <rect key="frame" x="57" y="6.5" width="300" height="50"/>
