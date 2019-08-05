@@ -1,0 +1,3 @@
+github "bizz84/SwiftyStoreKit"
+binary "https://ton.twimg.com/syndication/twitterkit/ios/TwitterKit.json"
+binary "https://ton.twimg.com/syndication/twitterkit/ios/TwitterCore.json"

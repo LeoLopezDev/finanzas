@@ -8,6 +8,8 @@
 
 import UIKit
 import PlatziFinanzasCore
+import TwitterKit
+import TwitterCore
 
 class TabBarViewController: UITabBarController {
 

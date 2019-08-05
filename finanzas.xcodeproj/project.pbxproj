@@ -31,6 +31,13 @@
 		450C02BE22F8CA49002C930E /* Gain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450C02BB22F8CA49002C930E /* Gain.swift */; };
 		450C02BF22F8CA49002C930E /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450C02BC22F8CA49002C930E /* Date.swift */; };
 		450C02C022F8CA49002C930E /* Debit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450C02BD22F8CA49002C930E /* Debit.swift */; };
+		450C02C222F8D885002C930E /* CartFile in Resources */ = {isa = PBXBuildFile; fileRef = 450C02C122F8D885002C930E /* CartFile */; };
+		450C02C922F8D9F9002C930E /* SwiftyStoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450C02C322F8D99B002C930E /* SwiftyStoreKit.framework */; };
+		450C02CA22F8D9F9002C930E /* SwiftyStoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 450C02C322F8D99B002C930E /* SwiftyStoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		450C02CB22F8D9F9002C930E /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450C02C422F8D99B002C930E /* TwitterCore.framework */; };
+		450C02CC22F8D9F9002C930E /* TwitterCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 450C02C422F8D99B002C930E /* TwitterCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		450C02CD22F8D9F9002C930E /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450C02C522F8D99B002C930E /* TwitterKit.framework */; };
+		450C02CE22F8D9F9002C930E /* TwitterKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 450C02C522F8D99B002C930E /* TwitterKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4510DCB122DFC86700483D1C /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4510DCB022DFC86700483D1C /* Shadow.swift */; };
 		4517D1BE22E24A8400E742E3 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4517D1BD22E24A8400E742E3 /* OnBoarding.storyboard */; };
 		4517D1C022E2538500E742E3 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517D1BF22E2538500E742E3 /* OnBoardingContainerViewController.swift */; };
@@ -97,6 +104,9 @@
 			dstSubfolderSpec = 10;
 			files = (
 				450C02AB22F8C825002C930E /* PlatziFinanzasCore.framework in Embed Frameworks */,
+				450C02CC22F8D9F9002C930E /* TwitterCore.framework in Embed Frameworks */,
+				450C02CA22F8D9F9002C930E /* SwiftyStoreKit.framework in Embed Frameworks */,
+				450C02CE22F8D9F9002C930E /* TwitterKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +140,10 @@
 		450C02BB22F8CA49002C930E /* Gain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gain.swift; sourceTree = "<group>"; };
 		450C02BC22F8CA49002C930E /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		450C02BD22F8CA49002C930E /* Debit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debit.swift; sourceTree = "<group>"; };
+		450C02C122F8D885002C930E /* CartFile */ = {isa = PBXFileReference; lastKnownFileType = text; path = CartFile; sourceTree = "<group>"; };
+		450C02C322F8D99B002C930E /* SwiftyStoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyStoreKit.framework; path = Carthage/Build/iOS/SwiftyStoreKit.framework; sourceTree = "<group>"; };
+		450C02C422F8D99B002C930E /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = Carthage/Build/iOS/TwitterCore.framework; sourceTree = "<group>"; };
+		450C02C522F8D99B002C930E /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = Carthage/Build/iOS/TwitterKit.framework; sourceTree = "<group>"; };
 		4510DCB022DFC86700483D1C /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 		4517D1BD22E24A8400E742E3 /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
 		4517D1BF22E2538500E742E3 /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
@@ -183,6 +197,9 @@
 			files = (
 				2369052D305FCC074250C0AB /* Pods_finanzas.framework in Frameworks */,
 				450C02AA22F8C825002C930E /* PlatziFinanzasCore.framework in Frameworks */,
+				450C02CB22F8D9F9002C930E /* TwitterCore.framework in Frameworks */,
+				450C02CD22F8D9F9002C930E /* TwitterKit.framework in Frameworks */,
+				450C02C922F8D9F9002C930E /* SwiftyStoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +337,7 @@
 		45310EA822DE704500EA215C = {
 			isa = PBXGroup;
 			children = (
+				450C02C122F8D885002C930E /* CartFile */,
 				45310EB322DE704500EA215C /* finanzas */,
 				45310EC822DE704700EA215C /* finanzasTests */,
 				45310ED322DE704700EA215C /* finanzasUITests */,
@@ -459,6 +477,9 @@
 		A303F7394126853EAA7C29AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				450C02C322F8D99B002C930E /* SwiftyStoreKit.framework */,
+				450C02C422F8D99B002C930E /* TwitterCore.framework */,
+				450C02C522F8D99B002C930E /* TwitterKit.framework */,
 				FC930FE67ED6EA387A872715 /* Pods_finanzas.framework */,
 				14B751908F483FA0A77DC6DD /* Pods_finanzasTests.framework */,
 				DBBAEEDDF18E2177D052859C /* Pods_finanzasUITests.framework */,
@@ -527,6 +548,7 @@
 				45310EAF22DE704500EA215C /* Resources */,
 				61B6E49906CB92C74F2BA460 /* [CP] Embed Pods Frameworks */,
 				450C02B122F8C825002C930E /* Embed Frameworks */,
+				450C02CF22F8DA44002C930E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -650,6 +672,7 @@
 			files = (
 				4517D1BE22E24A8400E742E3 /* OnBoarding.storyboard in Resources */,
 				016A68CE22EA5F6900078A4D /* TransactionsCell.xib in Resources */,
+				450C02C222F8D885002C930E /* CartFile in Resources */,
 				010B336322DECD37000CF058 /* Profile.storyboard in Resources */,
 				45310EBF22DE704700EA215C /* LaunchScreen.storyboard in Resources */,
 				45310EBC22DE704700EA215C /* Assets.xcassets in Resources */,
@@ -683,6 +706,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		450C02CF22F8DA44002C930E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
 		60ACEF458B1C8F9E42C427B8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1120,6 +1161,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/finanzas/Base/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1140,6 +1185,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/finanzas/Base/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
