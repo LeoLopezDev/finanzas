@@ -7,7 +7,7 @@ target 'finanzas' do
 
   # Pods for finanzas
 
-pod 'lottie-ios'
+  pod 'lottie-ios', '~> 2.5'
 
 
   target 'finanzasTests' do

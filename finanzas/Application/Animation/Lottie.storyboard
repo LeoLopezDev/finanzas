@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v0c-gh-Hs0">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v0c-gh-Hs0" customClass="LOTAnimatedControl">
                                 <rect key="frame" x="132" y="373" width="150" height="150"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -35,12 +35,12 @@
                         <viewLayoutGuide key="safeArea" id="nqf-e7-P8c"/>
                     </view>
                     <connections>
-                        <outlet property="animationLottie" destination="v0c-gh-Hs0" id="sbi-A7-3ve"/>
+                        <outlet property="animationView" destination="v0c-gh-Hs0" id="n0c-AG-Faw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3cc-cJ-cc6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="51" y="-60"/>
+            <point key="canvasLocation" x="-245" y="-62"/>
         </scene>
     </scenes>
 </document>
