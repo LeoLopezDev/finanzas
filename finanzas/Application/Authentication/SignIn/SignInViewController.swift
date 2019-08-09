@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SignInViewController: UIViewController {
 
@@ -29,7 +30,20 @@ class SignInViewController: UIViewController {
             return
         }
         
-        print("Hola \(email), \(password)")
+        Auth.auth().signIn(withEmail: email, password: password) {[weak self] (result, error) in
+            if let error = error{
+                let alert = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
+                let ok = UIAlertAction(title: "OK", style: .default, handler: nil)
+                alert.addAction(ok)
+                self?.present(alert, animated: true, completion: nil)
+                return
+            }
+            
+            if result != nil{
+                self?.performSegue(withIdentifier: "goToMain", sender: nil)
+            }
+        }
+        
     }
     
     func validate(text:String, regex:String) -> Bool {

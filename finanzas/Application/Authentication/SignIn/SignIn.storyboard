@@ -80,7 +80,6 @@
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="signIn:" destination="iW6-t6-oqi" eventType="touchUpInside" id="d7Q-Kc-Vow"/>
-                                                            <segue destination="nle-OT-whK" kind="presentation" modalPresentationStyle="currentContext" modalTransitionStyle="crossDissolve" id="BEM-Kj-TmW"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -261,6 +260,7 @@
                     <connections>
                         <outlet property="emailTextField" destination="waw-cP-WOa" id="HX9-zJ-G4U"/>
                         <outlet property="passwordTextField" destination="lRJ-0R-BFh" id="wSp-qD-oZQ"/>
+                        <segue destination="nle-OT-whK" kind="modal" identifier="goToMain" modalPresentationStyle="currentContext" modalTransitionStyle="crossDissolve" id="nDa-Pu-wtq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EQy-WP-z7d" userLabel="First Responder" sceneMemberID="firstResponder"/>
