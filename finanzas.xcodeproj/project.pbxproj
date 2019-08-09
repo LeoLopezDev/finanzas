@@ -53,6 +53,7 @@
 		45334BA222DFB12F0048BB86 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45334BA122DFB12F0048BB86 /* SignIn.storyboard */; };
 		45334BA622DFBBE70048BB86 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45334BA522DFBBE70048BB86 /* Colors.xcassets */; };
 		45751FB122FE11D50028CBD3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45751FB022FE11D50028CBD3 /* GoogleService-Info.plist */; };
+		45751FB322FE147E0028CBD3 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45751FB222FE147E0028CBD3 /* SignInViewController.swift */; };
 		45CB5B8322E659BE00786864 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB5B8222E659BE00786864 /* TransactionsViewController.swift */; };
 		45CB5B8522E6729E00786864 /* EmptyState.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45CB5B8422E6729E00786864 /* EmptyState.xib */; };
 		9839853B0F74A4E82A20A063 /* Pods_finanzasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBAEEDDF18E2177D052859C /* Pods_finanzasUITests.framework */; };
@@ -166,6 +167,7 @@
 		45334BA122DFB12F0048BB86 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		45334BA522DFBBE70048BB86 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		45751FB022FE11D50028CBD3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		45751FB222FE147E0028CBD3 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		45CB5B8222E659BE00786864 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		45CB5B8422E6729E00786864 /* EmptyState.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyState.xib; sourceTree = "<group>"; };
 		723F883C41261C9B479819AF /* Pods-finanzasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finanzasUITests.release.xcconfig"; path = "Target Support Files/Pods-finanzasUITests/Pods-finanzasUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -397,6 +399,7 @@
 			isa = PBXGroup;
 			children = (
 				45334BA122DFB12F0048BB86 /* SignIn.storyboard */,
+				45751FB222FE147E0028CBD3 /* SignInViewController.swift */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -858,6 +861,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45751FB322FE147E0028CBD3 /* SignInViewController.swift in Sources */,
 				45CB5B8322E659BE00786864 /* TransactionsViewController.swift in Sources */,
 				4510DCB122DFC86700483D1C /* Shadow.swift in Sources */,
 				4517D1C422E2686B00E742E3 /* OnBoardingStepsViewController.swift in Sources */,
