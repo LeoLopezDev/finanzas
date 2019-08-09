@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>289076440460-jc0mktnhu287qt131n3l5bodc2so0krn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.289076440460-jc0mktnhu287qt131n3l5bodc2so0krn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyADhCyC1lKpPxYrBUkAU_g2nvVIPEgZwEI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>289076440460</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.leolopez.finanzas</string>
+	<key>PROJECT_ID</key>
+	<string>cursoswift-1c2e2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cursoswift-1c2e2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:289076440460:ios:5f320f1d55002774</string>
+	<key>DATABASE_URL</key>
+	<string>https://cursoswift-1c2e2.firebaseio.com</string>
+</dict>
+</plist>

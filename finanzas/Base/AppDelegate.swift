@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        FirebaseApp.configure()
+        
+        self.initialViewController()
+        
+        return true
+    }
+    
+    func initialViewController() {
         let onBoarding = UserDefaults.standard.value(forKey: "WatchedOnboarding") as? Bool ?? false
         
         window = UIWindow(frame: UIScreen.main.bounds)
@@ -29,8 +38,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let viewController = UIStoryboard(name: name, bundle: Bundle.main).instantiateInitialViewController()
         window?.rootViewController = viewController
         window?.makeKeyAndVisible()
-        
-        return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
