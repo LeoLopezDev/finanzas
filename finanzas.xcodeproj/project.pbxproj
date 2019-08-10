@@ -18,6 +18,7 @@
 		01C7753822E9423E00CA7771 /* Lottie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C7753722E9423E00CA7771 /* Lottie.storyboard */; };
 		01C7753A22E942EE00CA7771 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C7753922E942EE00CA7771 /* LottieViewController.swift */; };
 		01C7753C22E945FA00CA7771 /* servishero-loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 01C7753B22E945FA00CA7771 /* servishero-loading.json */; };
+		01D4ADE222FF37B60083C382 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D4ADE122FF37B60083C382 /* SignInViewModel.swift */; };
 		2369052D305FCC074250C0AB /* Pods_finanzas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC930FE67ED6EA387A872715 /* Pods_finanzas.framework */; };
 		450C029E22F8C825002C930E /* PlatziFinanzasCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450C029522F8C825002C930E /* PlatziFinanzasCore.framework */; };
 		450C02A522F8C825002C930E /* PlatziFinanzasCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450C02A422F8C825002C930E /* PlatziFinanzasCoreTests.swift */; };
@@ -127,6 +128,7 @@
 		01C7753722E9423E00CA7771 /* Lottie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lottie.storyboard; sourceTree = "<group>"; };
 		01C7753922E942EE00CA7771 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
 		01C7753B22E945FA00CA7771 /* servishero-loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "servishero-loading.json"; sourceTree = "<group>"; };
+		01D4ADE122FF37B60083C382 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		042D77E2B3E5441BF05B6545 /* Pods-finanzas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finanzas.debug.xcconfig"; path = "Target Support Files/Pods-finanzas/Pods-finanzas.debug.xcconfig"; sourceTree = "<group>"; };
 		14B751908F483FA0A77DC6DD /* Pods_finanzasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_finanzasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		450C029522F8C825002C930E /* PlatziFinanzasCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlatziFinanzasCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -400,6 +402,7 @@
 			children = (
 				45334BA122DFB12F0048BB86 /* SignIn.storyboard */,
 				45751FB222FE147E0028CBD3 /* SignInViewController.swift */,
+				01D4ADE122FF37B60083C382 /* SignInViewModel.swift */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -869,6 +872,7 @@
 				016A68CC22EA586C00078A4D /* TabBarViewController.swift in Sources */,
 				45310EB522DE704500EA215C /* AppDelegate.swift in Sources */,
 				01C7753A22E942EE00CA7771 /* LottieViewController.swift in Sources */,
+				01D4ADE222FF37B60083C382 /* SignInViewModel.swift in Sources */,
 				016A68D022EA610800078A4D /* BudgetViewController.swift in Sources */,
 				4517D1C022E2538500E742E3 /* OnBoardingContainerViewController.swift in Sources */,
 				4517D1C222E253C300E742E3 /* OnBoardingViewController.swift in Sources */,
