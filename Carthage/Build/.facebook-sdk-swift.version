@@ -1,0 +1,20 @@
+{
+  "commitish" : "swift-4.1",
+  "iOS" : [
+    {
+      "name" : "FacebookLogin",
+      "hash" : "06334b0ae4ad661c1ec6d71b6d7eaad7e2bb5df5d9be6633aee1e79e7a070a8e",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+    },
+    {
+      "name" : "FacebookCore",
+      "hash" : "6c2e3d83046d63b173cebd795489c7aee5e48e69736ef5a07896db447ce011de",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+    },
+    {
+      "name" : "FacebookShare",
+      "hash" : "db57e22bee74e3014407e93580eee6a825bd8966ecb783eb5859e71c9ed2875c",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "name" : "FBSDKCoreKit",
+      "hash" : "7a04774f7094f3fa354f606153c1184a649aaaed64718f2211f769bb0260ba5d"
+    }
+  ],
+  "commitish" : "v4.44.1",
+  "iOS" : [
+    {
+      "name" : "FBSDKCoreKit",
+      "hash" : "8f3dd648fbf88d1ba9a1b3751eb6806d64ba6a39238ba361278a1efb13e06f35"
+    }
+  ]
+}
